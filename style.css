@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b') center/cover no-repeat fixed;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light {
+  background: #ffffff;
+  color: #000;
+}
+
+.login-container, .dashboard {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 10vh auto;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+button {
+  background: linear-gradient(to right, red, black);
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 1rem 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
